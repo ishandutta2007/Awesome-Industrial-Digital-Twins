@@ -1,257 +1,165 @@
-# Awesome-Industrial-Digital-Twins
+# Awesome Industrial Digital Twins ⚡
 
-## Top Industrial Digital Twins Ecosystem
+![Awesome Industrial Digital Twins Banner](./assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status"/>
+  <img src="https://img.shields.io/badge/Category-Industrial%20Digital%20Twins-blue.svg" alt="Category"/>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🏭 Top Industrial Digital Twins Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Asset Modeling, Real-Time Synchronization & Self-Hosted Digital Twin Platforms*  
+*Focused on Asset Modeling, Real-Time Synchronization, Physics-Based Simulation & Self-Hosted Digital Twin Platforms*  
 
 **Last updated: October 2026**
 
+This repository tracks notable **commercial industrial digital twin platforms** and **open-source projects** that create virtual representations of physical assets, processes, and systems — enabling real-time IoT monitoring, predictive maintenance, 3D spatial visualization, and operational optimization.
 
+**Leading Commercial Solutions**: Amazon Web Services (AWS IoT TwinMaker), Microsoft Azure Digital Twins, Siemens Insights Hub (MindSphere), Dassault 3DEXPERIENCE, GE Vernova Digital Twin, Unity Digital Twin, Bentley iTwin, Ansys Twin Builder, Matterport, and Cosmo Tech.
 
-This repository tracks notable **commercial industrial digital twin platforms** and **open-source projects** that create virtual representations of physical assets, processes, and systems — enabling simulation, predictive maintenance, and operational optimization.
-
-
-
-**Examples** include AWS IoT TwinMaker, Azure Digital Twins, Siemens MindSphere, Bentley iTwin, Dassault 3DEXPERIENCE, GE Vernova Digital Twin, Matterport, Unity Digital Twin, Cosmo Tech, and Ansys Twin Builder (the category leaders).
-
-
-
-**Open-source emphasis**: Industrial digital twins are anchored by **Eclipse Ditto** as the leading open-source digital twin framework with 854 stars and 9,559 commits from 95 contributors , **OpenTwins** for next-gen compositional digital twins with 3D visualization and ML integration , **MuPIF** for distributed multiphysics simulation with a Data Management System building digital twin representations , and **EDDIE** for environmental digital twins with modular containerized architecture . **FA³ST** from Fraunhofer delivers Asset Administration Shell tools for digital twins , **OpenDT** provides a self-calibrating datacenter digital twin , and **civic-digital-twins** supports modeling and evaluating digital twins in simulated environments . This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/)**  
-
-  **AWS's managed digital twin service** — create digital twins of real-world systems like buildings, factories, and production lines . **Connects to data sources including AWS IoT SiteWise, video feeds, and CAD files** . **Best for AWS-native digital twin deployments** .
-
-
-
-- **[Azure Digital Twins](https://azure.microsoft.com/en-us/products/digital-twins/)**  
-
-  **Microsoft's digital twin platform** — model physical environments with DTDL (Digital Twins Definition Language) . **Integration with Azure IoT Hub, Event Grid, and Time Series Insights** . **Best for Azure-native digital twins** .
-
-
-
-- **[Siemens MindSphere](https://www.siemens.com/)**  
-
-  **Industrial IoT operating system** — connect products, plants, systems, and machines . **Note**: MindSphere has been consolidated into Siemens Insights Hub . **Best for Siemens-centric industrial operations** .
-
-
-
-- **[Bentley iTwin](https://www.bentley.com/)**  
-
-  **Infrastructure digital twin platform** — synchronized physical and digital infrastructure for AEC and utilities . **iTwin.js is available as open-source** . **Best for infrastructure digital twins** .
-
-
-
-- **[Dassault 3DEXPERIENCE](https://www.3ds.com/)**  
-
-  **Unified collaborative platform** — digital twin for product design, simulation, and manufacturing . **Best for comprehensive product lifecycle management** .
-
-
-
-- **[GE Vernova Digital Twin](https://www.gevernova.com/)**  
-
-  **Industrial digital twin solutions** — asset performance and predictive maintenance . **Best for power generation and energy** .
-
-
-
-- **[Matterport](https://matterport.com/)**  
-
-  **3D spatial capture and digital twin platform** — create immersive 3D models of physical spaces . **Best for real estate and facilities management** .
-
-
-
-- **[Unity Digital Twin](https://unity.com/)**  
-
-  **Real-time 3D platform** — create interactive digital twins with Unity engine . **Best for high-fidelity visualization and simulation** .
-
-
-
-- **[Cosmo Tech](https://cosmotech.com/)**  
-
-  **Digital twin simulation platform** — decision intelligence for complex industrial systems . **Best for supply chain and industrial optimization** .
-
-
-
-- **[Ansys Twin Builder](https://www.ansys.com/)**  
-
-  **Multiphysics digital twin platform** — build, validate, and deploy digital twins for complex systems . **Best for engineering digital twins** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Digital Twin Frameworks
-
-
-
-- **[Eclipse Ditto](https://github.com/eclipse-ditto/ditto)**  
-
-  **The leading open-source digital twin framework**, EPL-2.0 licensed with **854 GitHub stars and 9,559 commits from 95 contributors**  . **Device-as-a-Service abstraction** — provides a higher-level API for working with individual devices . **State management** — distinguishes between reported (last known) and current (live) device states . **Policy-based access control** at all APIs . **Organize and search** sets of digital twins by metadata and state data . **Integrates with AMQP, MQTT, and Apache Kafka** for pushing IoT data to backend systems  . **Production-grade with regular releases** (3.9.0 released May 2026)  . **Best for enterprise digital twin abstraction** .
-
-
-
-- **[OpenTwins](https://github.com/ertis-research/opentwins)**  
-
-  **Innovative open-source platform specializing in next-gen compositional digital twins**, open-source . **Designed to cover all functionalities a digital twin may require** — from real-time state checking to predictive/simulated data  . **Integrates 3D visualization, ML models, and data acquisition from IoT devices** . **Distributed Digital Twin (DDT) architecture** — enables distribution across different infrastructures with multiple OpenTwins instances collaborating  . **Lightweight and compatible with ARM architectures** for IoT and edge environments  . **Components**: PostgreSQL with TimescaleDB, Redis, K3s, Flink, ML model serving, and DataHub . **Note**: Currently under development — not recommended for production use at this stage  . **Best for research and next-gen digital twin development** .
-
-
-
-- **[MuPIF](https://github.com/mupif/mupif)**  
-
-  **Open-source, modular, object-oriented simulation platform for distributed multiphysics workflows with integrated Digital Twin technology**, LGPLv3 licensed . **Data Management System (MuPIFDB)** builds digital twin representations with full traceability . **Entity Data Model (EDM)** identifies entities, attributes, and relations — defined using JSON schema . **Graphical Workflow Editor** for low-code workflow development . **Standardizes application and data component interfaces** for seamless integration of simulation models . **HPC integration** for high computational needs . **SSL or VPN-based secure communication**  . **Best for complex multiphysics digital twins** .
-
-
-
-- **[FA³ST](https://github.com/FraunhoferIOSB/FAAAST-Service)**  
-
-  **Fraunhofer Advanced Asset Administration Shell Tools for Digital Twins**, open-source . **Implements Asset Administration Shell (AAS) specifications** for Industry 4.0 digital twins . **Part of the broader AAS ecosystem** including AASPortal and Eclipse Mnestix AAS Browser  . **Best for Industry 4.0 Asset Administration Shell** .
-
-
-
-### Specialized Digital Twins
-
-
-
-- **[OpenDT](https://github.com/atlarge-research/opendt)**  
-
-  **Open-source digital twin for datacenter monitoring and operation**, open-source . **Continuous integration cycle**: live telemetry data, discrete-event simulation with self-calibration, and SLO-aware feedback to physical ICT  . **Self-calibration improves accuracy** — MAPE 4.39% vs. 7.86% in peer-reviewed work  . **Adheres to FAIR/FOSS principles** . **Best for datacenter performance and sustainability** .
-
-
-
-- **[EDDIE (Environmental Digital Data Intelligence Engine)](https://github.com/Geospatial-Research-Institute/EDDIE)**  
-
-  **Free and open-source framework for building environmental Digital Twins**, AGPL-3.0 licensed . **Modular, containerized architecture** assembling FOSS4G components: PostGIS, GeoServer, TerriaJS, and Python processing stack  . **Plugin-based module system** for domain-specific environmental models . **OGC-standard service interfaces** (WPS, WFS, WMS) for interoperability . **Powers Flood Resilience Digital Twin (FReDT), Ōtākoro Digital Twin, and Te Awarua Kai Ora**  . **Best for environmental modeling and management** .
-
-
-
-- **[civic-digital-twins](https://github.com/fbk-most/civic-digital-twins)**  
-
-  **Python framework for defining digital twin models and evaluating them in simulated environments**, open-source . **Three-layer architecture**: engine (embedded DSL compiler with NumPy backend), model/simulation layer (Index, Model, Evaluation abstractions), and usage patterns  . **Distribution and formula-based indexes** . **Evaluation over weighted scenarios** . **Best for civic and environmental digital twin modeling** .
-
-
-
-- **[ditto-fleet](https://github.com/SINTEF-9012/ditto-fleet)**  
-
-  **Digital Twin-based Secure Software Update platform built on Eclipse Ditto**, open-source . **Manages software throughout operational lifecycle of connected IoT and edge devices**  . **Desired/reported state synchronization** — automatically triggers software update workflows when states differ . **Features**: context-aware software assignment, guaranteed delivery to intermittently connected devices, one-to-one/one-to-many/fleet-wide deployments, hierarchical updates via gateways  . **Best for secure IoT software lifecycle management** .
-
-
-
-### Simulation & Modeling Tools
-
-
-
-- **[Equation-Free Digital Twins](https://zenodo.org/records/20110416)**  
-
-  **Reproducible Python implementation of Hankel-DMD / Koopman-Hankel digital twin framework for nonlinear structural dynamics**, open-source . **Hankel-DMD modal identification, rolling-horizon virtual sensing, missing/failed sensor reconstruction, SSI-COV comparison utilities, and OpenFAST case-generation pipeline**  . **Tutorial notebook, documentation, and smoke tests included** . **Best for structural dynamics digital twins** .
-
-
-
-- **[HP2C-DT](https://github.com/bsc-wdc/HP2C-DT)**  
-
-  **High-Precision High-Performance Computer-enabled Digital Twin framework**, open-source . **Reference implementation for HPC-enabled digital twins**  . **Best for HPC digital twin applications** .
-
-
-
-- **[iMETRO Dynamic Simulation](https://github.com/rice-robotics/iMETRO-Dynamic-Simulation)**  
-
-  **World's first open-source dynamic simulation environment for intravehicular space robotics**, open-source . **Developed by NASA Johnson Space Center and Rice University**  . **High-fidelity digital twin of NASA's physical iMETRO facility** — full-scale mockups of future space vehicles and lunar habitats . **Remote development and deployment** — researchers worldwide can create and test robotic software remotely . **Best for space robotics digital twins** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Eclipse Ditto Examples** — Samples and tutorials for Eclipse Ditto digital twins (106 GitHub stars)  .
-
-- **AASPortal** — Node.js web portal for visualization and management of Asset Administration Shells  .
-
-- **Eclipse Mnestix AAS Browser** — Easily get started with AAS and browse through repositories  .
-
-- **OPC UA Cloud Library** — OPC UA information model database with REST interface (global instance hosted by OPC Foundation)  .
-
-- **UA Cloud Viewer** — Tool for managing OPC UA information models ("industrial digital twins")  .
-
-- **Digital Twin based building env management** — IoT and LSTM-based building environment management (JavaScript)  .
-
-- **Samples for Industrial IoT Design Patterns** — Jupyter Notebook samples  .
-
-- **National Digital Twin Platform Pilot Service** — UK national digital twin pilot  .
-
-
-
-**Frameworks for building custom industrial digital twin solutions**: Combine **Eclipse Ditto** for production-grade digital twin abstraction with state management and policy-based access control  . Use **OpenTwins** for next-gen compositional digital twins with 3D visualization and ML integration  . Deploy **MuPIF** for distributed multiphysics simulation with a Data Management System building digital twin representations  . Integrate **FA³ST** for Industry 4.0 Asset Administration Shell compliance  . Choose **OpenDT** for self-calibrating datacenter digital twins  . Use **EDDIE** for environmental digital twins with FOSS4G components  . Note that true enterprise industrial digital twins with managed infrastructure, CAD integration, and vendor-supported SLAs (AWS IoT TwinMaker, Azure Digital Twins, Bentley iTwin) remain primarily commercial territory; open-source stacks provide strong digital twin frameworks, simulation platforms, and modeling tools that require integration for complete industrial digital twin deployments.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Industrial digital twin platforms handle sensitive operational data and may control physical equipment. Self-hosted solutions require proper security hardening, access controls, and compliance with industrial safety standards (IEC 62443).
-
-- **Open-source digital twin projects vary significantly in maturity** — Eclipse Ditto is production-grade with regular releases  ; OpenTwins is explicitly **under development and not recommended for production use**  . Evaluate before relying on them for safety-critical applications.
-
-- **Digital twin modeling requires domain expertise** — proper asset hierarchy design, data mapping, and simulation parameters are critical for accurate representation .
-
-- **License considerations**: Eclipse Ditto uses EPL-2.0  , OpenTwins is open-source  , MuPIF uses LGPLv3  , and EDDIE uses AGPL-3.0  . Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong digital twin frameworks, simulation platforms, and modeling tools, but **managed infrastructure, CAD integration, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+**Open-Source Open Ecosystem**: Anchored by **Eclipse Ditto** (Device-as-a-Service abstraction and IoT digital twin framework), **OpenTwins** (compositional digital twins with 3D visualization and ML), **MuPIF** (distributed multiphysics simulation workflows), **FA³ST** (Fraunhofer Asset Administration Shell Industry 4.0 tools), and **EDDIE** (environmental digital twin engine).
 
 ---
 
+## 📑 Table of Contents
 
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⚙️ Digital Twin Frameworks & Infrastructure](#️-digital-twin-frameworks--infrastructure)
+  - [🏢 Specialized Digital Twins & Domain Models](#-specialized-digital-twins--domain-models)
+  - [🧪 Simulation, Physics & Modeling Tools](#-simulation-physics--modeling-tools)
+  - [🌟 Additional Open-Source Options & Components](#-additional-open-source-options--components)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [📊 Star History](#-star-history)
 
-**Made for industrial engineers, digital twin architects, and organizations seeking digital twin sovereignty.**  
+---
 
-Let's make industrial digital twins more open, transparent, and interoperable.
+## ☁️ SaaS/Hosted Platforms
+
+> **📈 Sector Market Size & Industry Dynamics:**  
+> The Global Industrial Digital Twin Market is projected to reach **$110.1 Billion by 2030**, growing at a CAGR of ~35.7%. The market is **moderately fragmented** — dominated at the infrastructure level by major cloud hyperscalers (AWS, Azure) and industrial automation software giants (Siemens, Dassault, GE Vernova, Ansys), alongside specialized spatial capture and simulation innovators (Matterport, Unity, Cosmo Tech).
+
+| Platform | Description | Specific Starting Pricing | Free Tier Limit | Company Size (Rev / Valuation) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[AWS IoT TwinMaker](https://aws.amazon.com/iot-twinmaker/)** | AWS's managed digital twin service to model real-world systems (factories, production lines). Connects to AWS IoT SiteWise, video feeds, and CAD files. | Pay-as-you-go starting at $0.02 per 10,000 unified data access API calls after free tier | Free for 12 months with up to 50 Million data access API calls per month | **$1.8 Trillion+** (Amazon Market Cap) / ~$600B Amazon Revenue |
+| **[Azure Digital Twins](https://azure.microsoft.com/en-us/products/digital-twins/)** | Microsoft's digital twin platform modeling physical environments via DTDL with IoT Hub & Event Grid integrations. | Pay-as-you-go starting at $2.50 per 1M operations ($0.025 per 10,000 ops) | No dedicated free tier; $200 free credit valid for 30 days via Azure Free Account | **$3.1 Trillion+** (Microsoft Market Cap) / ~$245B Microsoft Revenue |
+| **[Siemens MindSphere](https://www.siemens.com/)** | Industrial IoT operating system (consolidated into Siemens Insights Hub) for asset connection, telemetry, and smart factory operations. | Enterprise capability packages starting at ~€1,000/month (varies by asset count & data volume) | "Start for Free" freemium entry tier available with limited connected assets & features | **$150 Billion+** (Siemens AG Market Cap) / ~$85B Siemens AG Revenue |
+| **[GE Vernova Digital Twin](https://www.gevernova.com/)** | Industrial APM and digital twin suite focused on power generation, energy grid assets, and predictive asset performance. | Custom enterprise subscription quote-based pricing | No public free tier/trial; interactive demos and 16-hour cloud training environment provided | **$50 Billion+** (GE Vernova Market Cap) / ~$34B GE Vernova Revenue |
+| **[Dassault 3DEXPERIENCE](https://www.3ds.com/)** | Unified collaborative platform for product lifecycle, 3D digital twin design, multiphysics simulation, and smart manufacturing. | Commercial SOLIDWORKS on 3DEXPERIENCE starts at ~€290/user/month (€3,480/year); Makers tier at $99/year | No perpetual free plan; 3-month evaluation offer (~$345 total) or paid trial | **$45 Billion+** (Dassault Systèmes Market Cap) / ~$6.5B Dassault Revenue |
+| **[Ansys Twin Builder](https://www.ansys.com/)** | Multiphysics digital twin platform to build, validate, and deploy complex engineering and structural dynamic twins. | Quote-based enterprise software license | 30-day free trial upon consultation request; free Student Edition capped at 15 components | **$28 Billion+** (Ansys Market Cap) / ~$2.3B Ansys Revenue |
+| **[Bentley iTwin](https://www.bentley.com/)** | Infrastructure digital twin platform for AEC, civil engineering, and utilities. (iTwin.js core is open-source). | Standard Plan starts at $199/month (includes 200 monthly credits & 50 GB storage) | Free Community Plan forever with 100 credits/month, 10 GB cloud data, and 100 GB reality data | **$15 Billion+** (Bentley Systems Market Cap) / ~$1.2B Bentley Revenue |
+| **[Unity Digital Twin](https://unity.com/)** | Real-time 3D engine and platform for interactive industrial digital twins, HMI simulation, and high-fidelity 3D spatial visualization. | Unity Pro starts at $210/month per seat ($2,310/year prepaid) | Unity Personal free forever for entities with under $200,000 USD annual revenue/funding | **$7.5 Billion+** (Unity Software Market Cap) / ~$2.1B Unity Revenue |
+| **[Matterport](https://matterport.com/)** | 3D spatial capture and digital twin platform creating immersive, dimensionally accurate 3D models of physical facilities. | Starter Plan starts at $10/month (for up to 5-20 active spaces) | Free Plan forever with 1 active space limit (private sharing, mobile capture only) | **$1.6 Billion+** (Valuation / Acquisition by CoStar Group) |
+| **[Cosmo Tech](https://cosmotech.com/)** | Prescriptive AI decision intelligence and simulation digital twin platform for enterprise supply chain & industrial asset optimization. | Enterprise custom subscription pricing per module and deployment scale | No free tier or public free trial; enterprise demonstration available upon request | **$100 Million+** (Estimated Venture Valuation / Series C) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+### ⚙️ Digital Twin Frameworks & Infrastructure
+
+- **[Eclipse Ditto](https://github.com/eclipse-ditto/ditto)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-ditto/ditto?style=social&color=white)](https://github.com/eclipse-ditto/ditto/stargazers)  
+  **The leading open-source digital twin framework**, EPL-2.0 licensed. **Device-as-a-Service abstraction** — provides a higher-level API for working with physical IoT devices. **State management** — cleanly separates reported (sensor) vs. desired (command) states. **Policy-based access control** across all APIs. **Integrates with AMQP, MQTT, and Apache Kafka**. Production-grade with active releases (3.9.0+). *Best for enterprise IoT digital twin abstraction.*
+
+- **[OpenTwins](https://github.com/ertis-research/opentwins)** [![GitHub stars](https://img.shields.io/github/stars/ertis-research/opentwins?style=social&color=white)](https://github.com/ertis-research/opentwins/stargazers)  
+  **Open-source platform for next-gen compositional digital twins**. Designed to cover end-to-end digital twin requirements — from real-time telemetry checking to predictive/simulated state forecasting. **Integrates 3D visualization, ML models, and IoT acquisition**. Distributed Digital Twin (DDT) architecture compatible with ARM and edge environments. Stack: TimescaleDB, Redis, K3s, Flink, and ML serving. *Best for research & next-gen digital twin architectures.*
+
+- **[FA³ST Service](https://github.com/FraunhoferIOSB/FAAAST-Service)** [![GitHub stars](https://img.shields.io/github/stars/FraunhoferIOSB/FAAAST-Service?style=social&color=white)](https://github.com/FraunhoferIOSB/FAAAST-Service/stargazers)  
+  **Fraunhofer Advanced Asset Administration Shell Tools for Digital Twins**. Implements official Asset Administration Shell (AAS) specifications for Industry 4.0 interoperability. Provides REST, OPC UA, and MQTT interfaces for asset models. *Best for Industry 4.0 Asset Administration Shell compliance.*
+
+- **[MuPIF](https://github.com/mupif/mupif)** [![GitHub stars](https://img.shields.io/github/stars/mupif/mupif?style=social&color=white)](https://github.com/mupif/mupif/stargazers)  
+  **Modular, object-oriented simulation platform for distributed multiphysics workflows with integrated Digital Twin tech**, LGPLv3 licensed. **MuPIFDB** builds digital twin representations with full traceability. **Entity Data Model (EDM)** defines assets using JSON schema. Includes Graphical Workflow Editor and HPC job integration. *Best for complex multiphysics digital twins.*
+
+---
+
+### 🏢 Specialized Digital Twins & Domain Models
+
+- **[ertis-research/opentwins](https://github.com/ertis-research/opentwins)** [![GitHub stars](https://img.shields.io/github/stars/ertis-research/opentwins?style=social&color=white)](https://github.com/ertis-research/opentwins/stargazers)  
+  **Compositional IoT & 3D Digital Twin Platform**. Full stack edge-to-cloud digital twin platform featuring TimescaleDB telemetry, Kafka event streaming, and 3D web rendering.
+
+- **[EDDIE (Environmental Digital Data Intelligence Engine)](https://github.com/Geospatial-Research-Institute/EDDIE)** [![GitHub stars](https://img.shields.io/github/stars/Geospatial-Research-Institute/EDDIE?style=social&color=white)](https://github.com/Geospatial-Research-Institute/EDDIE/stargazers)  
+  **Free and open-source framework for building environmental Digital Twins**, AGPL-3.0 licensed. Modular containerized architecture assembling PostGIS, GeoServer, TerriaJS, and Python processing stack. *Powers Flood Resilience Digital Twins and spatial environmental models.*
+
+- **[civic-digital-twins](https://github.com/fbk-most/civic-digital-twins)** [![GitHub stars](https://img.shields.io/github/stars/fbk-most/civic-digital-twins?style=social&color=white)](https://github.com/fbk-most/civic-digital-twins/stargazers)  
+  **Python framework for defining digital twin models and evaluating them in simulated environments**. Features embedded DSL compiler with NumPy backend for urban, civic, and environmental scenario evaluation.
+
+- **[ditto-fleet](https://github.com/SINTEF-9012/ditto-fleet)** [![GitHub stars](https://img.shields.io/github/stars/SINTEF-9012/ditto-fleet?style=social&color=white)](https://github.com/SINTEF-9012/ditto-fleet/stargazers)  
+  **Digital Twin-based Secure Software Update platform built on Eclipse Ditto**. Manages firmware/software lifecycles across connected IoT & edge device fleets via state synchronization.
+
+- **[OpenDT](https://github.com/atlarge-research/opendt)** [![GitHub stars](https://img.shields.io/github/stars/atlarge-research/opendt?style=social&color=white)](https://github.com/atlarge-research/opendt/stargazers)  
+  **Open-source digital twin for datacenter monitoring and operation**. Continuous telemetry integration, discrete-event simulation with self-calibration (MAPE 4.39%), and SLO-aware feedback loops.
+
+---
+
+### 🧪 Simulation, Physics & Modeling Tools
+
+- **[Unity3D Robotics UR Digital Twin](https://github.com/rparak/Unity3D_Robotics_UR)** [![GitHub stars](https://img.shields.io/github/stars/rparak/Unity3D_Robotics_UR?style=social&color=white)](https://github.com/rparak/Unity3D_Robotics_UR/stargazers)  
+  **High-fidelity digital twin implementation for industrial robots (Universal Robots UR3)** integrated with Unity3D engine and real-time controller interfaces.
+
+- **[Equation-Free Digital Twins](https://github.com/zenodo/records/20110416)** [![GitHub stars](https://img.shields.io/github/stars/rparak/Unity3D_Robotics_UR?style=social&color=white)](https://github.com/rparak/Unity3D_Robotics_UR/stargazers)  
+  **Python implementation of Hankel-DMD / Koopman-Hankel digital twin framework for nonlinear structural dynamics**. Features virtual sensing, missing sensor reconstruction, and OpenFAST case pipelines.
+
+- **[iMETRO Dynamic Simulation Environment](https://github.com/rice-robotics/iMETRO-Dynamic-Simulation)** [![GitHub stars](https://img.shields.io/github/stars/rice-robotics/iMETRO-Dynamic-Simulation?style=social&color=white)](https://github.com/rice-robotics/iMETRO-Dynamic-Simulation/stargazers)  
+  **Dynamic simulation environment for intravehicular space robotics** developed by NASA Johnson Space Center and Rice University. High-fidelity digital twin of space vehicles and lunar habitats.
+
+- **[HP2C-DT Framework](https://github.com/bsc-wdc/HP2C-DT)** [![GitHub stars](https://img.shields.io/github/stars/bsc-wdc/HP2C-DT?style=social&color=white)](https://github.com/bsc-wdc/HP2C-DT/stargazers)  
+  **High-Precision High-Performance Computer (HPC) enabled Digital Twin framework**, providing reference implementations for distributed supercomputing simulation.
+
+---
+
+### 🌟 Additional Open-Source Options & Components
+
+- **[Eclipse Mnestix AAS Browser](https://github.com/eclipse-mnestix/mnestix-browser)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-mnestix/mnestix-browser?style=social&color=white)](https://github.com/eclipse-mnestix/mnestix-browser/stargazers) — Next-gen web browser interface for viewing and managing Asset Administration Shell (AAS) digital twins.
+- **[Eclipse Ditto Examples](https://github.com/eclipse-ditto/ditto-examples)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-ditto/ditto-examples?style=social&color=white)](https://github.com/eclipse-ditto/ditto-examples/stargazers) — Quickstarts, code samples, and tutorials for Eclipse Ditto digital twin integrations.
+- **[IndustryFusion DigitalTwin](https://github.com/IndustryFusion/DigitalTwin)** [![GitHub stars](https://img.shields.io/github/stars/IndustryFusion/DigitalTwin?style=social&color=white)](https://github.com/IndustryFusion/DigitalTwin/stargazers) — Core digital twin implementation for multi-vendor smart factory automation and Industry 4.0.
+- **[OPC UA Cloud Library](https://github.com/OPCFoundation/UA-CloudLibrary)** [![GitHub stars](https://img.shields.io/github/stars/OPCFoundation/UA-CloudLibrary?style=social&color=white)](https://github.com/OPCFoundation/UA-CloudLibrary/stargazers) — Global repository of OPC UA information models ("industrial digital twins") hosted by the OPC Foundation.
+- **[UA Cloud Viewer](https://github.com/OPCFoundation/UA-CloudViewer)** [![GitHub stars](https://img.shields.io/github/stars/OPCFoundation/UA-CloudViewer?style=social&color=white)](https://github.com/OPCFoundation/UA-CloudViewer/stargazers) — Web-based visualization tool for OPC UA information models and industrial asset twins.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help make industrial digital twins more open, transparent, and interoperable. 🚀
+
+1. 🍴 **Fork the repository**
+2. 📝 **Create a new branch** (`git checkout -b add-digital-twin-platform`)
+3. ➕ **Add your entry** to `README.md` following the table / list format (include platform name, official site, description, pricing, and open-source star badges).
+4. 🚀 **Commit your changes** (`git commit -m "add: new industrial digital twin solution"`)
+5. 📤 **Push to your fork** (`git push origin add-digital-twin-platform`)
+6. 🔀 **Submit a Pull Request** with a brief summary of the project.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated list of **Industrial Digital Twin** tools, frameworks, and commercial platforms valuable, please consider supporting the project! 🌟
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork and share** with fellow industrial engineers, digital twin architects, and IoT developers!
+- ☕ **Sponsor & Buy Me a Coffee**: If you'd like to support ongoing updates and open-source curation, visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated list** — not an exhaustive registry nor an endorsement.
+- **Security & Safety**: Industrial digital twins interact with real-world infrastructure and critical physical assets. Self-hosted platforms require proper OT/IT security hardening, role-based access control, and adherence to industrial standards (e.g., IEC 62443).
+- **Maturity Variance**: Open-source tools range from production-ready enterprise platforms (**Eclipse Ditto**) to research-stage frameworks (**OpenTwins**). Evaluate licenses (EPL-2.0, AGPL-3.0, LGPLv3) and readiness before production deployment.
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Industrial-Digital-Twins&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Industrial-Digital-Twins&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Industrial Engineers, Digital Twin Architects &amp; Industry 4.0 Pioneers.</b>
+</p>
