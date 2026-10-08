@@ -64,62 +64,62 @@ This repository tracks notable **commercial industrial digital twin platforms** 
 
 ### ⚙️ Digital Twin Frameworks & Infrastructure
 
-- **[Eclipse Ditto](https://github.com/eclipse-ditto/ditto)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-ditto/ditto?style=social&color=white)](https://github.com/eclipse-ditto/ditto/stargazers)  
+- **[Eclipse Ditto](https://github.com/eclipse-ditto/ditto)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-ditto/ditto?style=social&color=white)](https://github.com/eclipse-ditto/ditto/stargazers)  
   **The leading open-source digital twin framework**, EPL-2.0 licensed. **Device-as-a-Service abstraction** — provides a higher-level API for working with physical IoT devices. **State management** — cleanly separates reported (sensor) vs. desired (command) states. **Policy-based access control** across all APIs. **Integrates with AMQP, MQTT, and Apache Kafka**. Production-grade with active releases (3.9.0+). *Best for enterprise IoT digital twin abstraction.*
 
-- **[OpenTwins](https://github.com/ertis-research/opentwins)** [![GitHub stars](https://img.shields.io/github/stars/ertis-research/opentwins?style=social&color=white)](https://github.com/ertis-research/opentwins/stargazers)  
+- **[OpenTwins](https://github.com/ertis-research/opentwins)** [![GitHub_Stars](https://img.shields.io/github/stars/ertis-research/opentwins?style=social&color=white)](https://github.com/ertis-research/opentwins/stargazers)  
   **Open-source platform for next-gen compositional digital twins**. Designed to cover end-to-end digital twin requirements — from real-time telemetry checking to predictive/simulated state forecasting. **Integrates 3D visualization, ML models, and IoT acquisition**. Distributed Digital Twin (DDT) architecture compatible with ARM and edge environments. Stack: TimescaleDB, Redis, K3s, Flink, and ML serving. *Best for research & next-gen digital twin architectures.*
 
-- **[FA³ST Service](https://github.com/FraunhoferIOSB/FAAAST-Service)** [![GitHub stars](https://img.shields.io/github/stars/FraunhoferIOSB/FAAAST-Service?style=social&color=white)](https://github.com/FraunhoferIOSB/FAAAST-Service/stargazers)  
+- **[FA³ST Service](https://github.com/FraunhoferIOSB/FAAAST-Service)** [![GitHub_Stars](https://img.shields.io/github/stars/FraunhoferIOSB/FAAAST-Service?style=social&color=white)](https://github.com/FraunhoferIOSB/FAAAST-Service/stargazers)  
   **Fraunhofer Advanced Asset Administration Shell Tools for Digital Twins**. Implements official Asset Administration Shell (AAS) specifications for Industry 4.0 interoperability. Provides REST, OPC UA, and MQTT interfaces for asset models. *Best for Industry 4.0 Asset Administration Shell compliance.*
 
-- **[MuPIF](https://github.com/mupif/mupif)** [![GitHub stars](https://img.shields.io/github/stars/mupif/mupif?style=social&color=white)](https://github.com/mupif/mupif/stargazers)  
+- **[MuPIF](https://github.com/mupif/mupif)** [![GitHub_Stars](https://img.shields.io/github/stars/mupif/mupif?style=social&color=white)](https://github.com/mupif/mupif/stargazers)  
   **Modular, object-oriented simulation platform for distributed multiphysics workflows with integrated Digital Twin tech**, LGPLv3 licensed. **MuPIFDB** builds digital twin representations with full traceability. **Entity Data Model (EDM)** defines assets using JSON schema. Includes Graphical Workflow Editor and HPC job integration. *Best for complex multiphysics digital twins.*
 
 ---
 
 ### 🏢 Specialized Digital Twins & Domain Models
 
-- **[ertis-research/opentwins](https://github.com/ertis-research/opentwins)** [![GitHub stars](https://img.shields.io/github/stars/ertis-research/opentwins?style=social&color=white)](https://github.com/ertis-research/opentwins/stargazers)  
+- **[ertis-research/opentwins](https://github.com/ertis-research/opentwins)** [![GitHub_Stars](https://img.shields.io/github/stars/ertis-research/opentwins?style=social&color=white)](https://github.com/ertis-research/opentwins/stargazers)  
   **Compositional IoT & 3D Digital Twin Platform**. Full stack edge-to-cloud digital twin platform featuring TimescaleDB telemetry, Kafka event streaming, and 3D web rendering.
 
-- **[EDDIE (Environmental Digital Data Intelligence Engine)](https://github.com/Geospatial-Research-Institute/EDDIE)** [![GitHub stars](https://img.shields.io/github/stars/Geospatial-Research-Institute/EDDIE?style=social&color=white)](https://github.com/Geospatial-Research-Institute/EDDIE/stargazers)  
+- **[EDDIE (Environmental Digital Data Intelligence Engine)](https://github.com/Geospatial-Research-Institute/EDDIE)** [![GitHub_Stars](https://img.shields.io/github/stars/Geospatial-Research-Institute/EDDIE?style=social&color=white)](https://github.com/Geospatial-Research-Institute/EDDIE/stargazers)  
   **Free and open-source framework for building environmental Digital Twins**, AGPL-3.0 licensed. Modular containerized architecture assembling PostGIS, GeoServer, TerriaJS, and Python processing stack. *Powers Flood Resilience Digital Twins and spatial environmental models.*
 
-- **[civic-digital-twins](https://github.com/fbk-most/civic-digital-twins)** [![GitHub stars](https://img.shields.io/github/stars/fbk-most/civic-digital-twins?style=social&color=white)](https://github.com/fbk-most/civic-digital-twins/stargazers)  
+- **[civic-digital-twins](https://github.com/fbk-most/civic-digital-twins)** [![GitHub_Stars](https://img.shields.io/github/stars/fbk-most/civic-digital-twins?style=social&color=white)](https://github.com/fbk-most/civic-digital-twins/stargazers)  
   **Python framework for defining digital twin models and evaluating them in simulated environments**. Features embedded DSL compiler with NumPy backend for urban, civic, and environmental scenario evaluation.
 
-- **[ditto-fleet](https://github.com/SINTEF-9012/ditto-fleet)** [![GitHub stars](https://img.shields.io/github/stars/SINTEF-9012/ditto-fleet?style=social&color=white)](https://github.com/SINTEF-9012/ditto-fleet/stargazers)  
+- **[ditto-fleet](https://github.com/SINTEF-9012/ditto-fleet)** [![GitHub_Stars](https://img.shields.io/github/stars/SINTEF-9012/ditto-fleet?style=social&color=white)](https://github.com/SINTEF-9012/ditto-fleet/stargazers)  
   **Digital Twin-based Secure Software Update platform built on Eclipse Ditto**. Manages firmware/software lifecycles across connected IoT & edge device fleets via state synchronization.
 
-- **[OpenDT](https://github.com/atlarge-research/opendt)** [![GitHub stars](https://img.shields.io/github/stars/atlarge-research/opendt?style=social&color=white)](https://github.com/atlarge-research/opendt/stargazers)  
+- **[OpenDT](https://github.com/atlarge-research/opendt)** [![GitHub_Stars](https://img.shields.io/github/stars/atlarge-research/opendt?style=social&color=white)](https://github.com/atlarge-research/opendt/stargazers)  
   **Open-source digital twin for datacenter monitoring and operation**. Continuous telemetry integration, discrete-event simulation with self-calibration (MAPE 4.39%), and SLO-aware feedback loops.
 
 ---
 
 ### 🧪 Simulation, Physics & Modeling Tools
 
-- **[Unity3D Robotics UR Digital Twin](https://github.com/rparak/Unity3D_Robotics_UR)** [![GitHub stars](https://img.shields.io/github/stars/rparak/Unity3D_Robotics_UR?style=social&color=white)](https://github.com/rparak/Unity3D_Robotics_UR/stargazers)  
+- **[Unity3D Robotics UR Digital Twin](https://github.com/rparak/Unity3D_Robotics_UR)** [![GitHub_Stars](https://img.shields.io/github/stars/rparak/Unity3D_Robotics_UR?style=social&color=white)](https://github.com/rparak/Unity3D_Robotics_UR/stargazers)  
   **High-fidelity digital twin implementation for industrial robots (Universal Robots UR3)** integrated with Unity3D engine and real-time controller interfaces.
 
-- **[Equation-Free Digital Twins](https://github.com/zenodo/records/20110416)** [![GitHub stars](https://img.shields.io/github/stars/rparak/Unity3D_Robotics_UR?style=social&color=white)](https://github.com/rparak/Unity3D_Robotics_UR/stargazers)  
+- **[Equation-Free Digital Twins](https://github.com/zenodo/records/20110416)** [![GitHub_Stars](https://img.shields.io/github/stars/rparak/Unity3D_Robotics_UR?style=social&color=white)](https://github.com/rparak/Unity3D_Robotics_UR/stargazers)  
   **Python implementation of Hankel-DMD / Koopman-Hankel digital twin framework for nonlinear structural dynamics**. Features virtual sensing, missing sensor reconstruction, and OpenFAST case pipelines.
 
-- **[iMETRO Dynamic Simulation Environment](https://github.com/rice-robotics/iMETRO-Dynamic-Simulation)** [![GitHub stars](https://img.shields.io/github/stars/rice-robotics/iMETRO-Dynamic-Simulation?style=social&color=white)](https://github.com/rice-robotics/iMETRO-Dynamic-Simulation/stargazers)  
+- **[iMETRO Dynamic Simulation Environment](https://github.com/rice-robotics/iMETRO-Dynamic-Simulation)** [![GitHub_Stars](https://img.shields.io/github/stars/rice-robotics/iMETRO-Dynamic-Simulation?style=social&color=white)](https://github.com/rice-robotics/iMETRO-Dynamic-Simulation/stargazers)  
   **Dynamic simulation environment for intravehicular space robotics** developed by NASA Johnson Space Center and Rice University. High-fidelity digital twin of space vehicles and lunar habitats.
 
-- **[HP2C-DT Framework](https://github.com/bsc-wdc/HP2C-DT)** [![GitHub stars](https://img.shields.io/github/stars/bsc-wdc/HP2C-DT?style=social&color=white)](https://github.com/bsc-wdc/HP2C-DT/stargazers)  
+- **[HP2C-DT Framework](https://github.com/bsc-wdc/HP2C-DT)** [![GitHub_Stars](https://img.shields.io/github/stars/bsc-wdc/HP2C-DT?style=social&color=white)](https://github.com/bsc-wdc/HP2C-DT/stargazers)  
   **High-Precision High-Performance Computer (HPC) enabled Digital Twin framework**, providing reference implementations for distributed supercomputing simulation.
 
 ---
 
 ### 🌟 Additional Open-Source Options & Components
 
-- **[Eclipse Mnestix AAS Browser](https://github.com/eclipse-mnestix/mnestix-browser)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-mnestix/mnestix-browser?style=social&color=white)](https://github.com/eclipse-mnestix/mnestix-browser/stargazers) — Next-gen web browser interface for viewing and managing Asset Administration Shell (AAS) digital twins.
-- **[Eclipse Ditto Examples](https://github.com/eclipse-ditto/ditto-examples)** [![GitHub stars](https://img.shields.io/github/stars/eclipse-ditto/ditto-examples?style=social&color=white)](https://github.com/eclipse-ditto/ditto-examples/stargazers) — Quickstarts, code samples, and tutorials for Eclipse Ditto digital twin integrations.
-- **[IndustryFusion DigitalTwin](https://github.com/IndustryFusion/DigitalTwin)** [![GitHub stars](https://img.shields.io/github/stars/IndustryFusion/DigitalTwin?style=social&color=white)](https://github.com/IndustryFusion/DigitalTwin/stargazers) — Core digital twin implementation for multi-vendor smart factory automation and Industry 4.0.
-- **[OPC UA Cloud Library](https://github.com/OPCFoundation/UA-CloudLibrary)** [![GitHub stars](https://img.shields.io/github/stars/OPCFoundation/UA-CloudLibrary?style=social&color=white)](https://github.com/OPCFoundation/UA-CloudLibrary/stargazers) — Global repository of OPC UA information models ("industrial digital twins") hosted by the OPC Foundation.
-- **[UA Cloud Viewer](https://github.com/OPCFoundation/UA-CloudViewer)** [![GitHub stars](https://img.shields.io/github/stars/OPCFoundation/UA-CloudViewer?style=social&color=white)](https://github.com/OPCFoundation/UA-CloudViewer/stargazers) — Web-based visualization tool for OPC UA information models and industrial asset twins.
+- **[Eclipse Mnestix AAS Browser](https://github.com/eclipse-mnestix/mnestix-browser)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-mnestix/mnestix-browser?style=social&color=white)](https://github.com/eclipse-mnestix/mnestix-browser/stargazers) — Next-gen web browser interface for viewing and managing Asset Administration Shell (AAS) digital twins.
+- **[Eclipse Ditto Examples](https://github.com/eclipse-ditto/ditto-examples)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-ditto/ditto-examples?style=social&color=white)](https://github.com/eclipse-ditto/ditto-examples/stargazers) — Quickstarts, code samples, and tutorials for Eclipse Ditto digital twin integrations.
+- **[IndustryFusion DigitalTwin](https://github.com/IndustryFusion/DigitalTwin)** [![GitHub_Stars](https://img.shields.io/github/stars/IndustryFusion/DigitalTwin?style=social&color=white)](https://github.com/IndustryFusion/DigitalTwin/stargazers) — Core digital twin implementation for multi-vendor smart factory automation and Industry 4.0.
+- **[OPC UA Cloud Library](https://github.com/OPCFoundation/UA-CloudLibrary)** [![GitHub_Stars](https://img.shields.io/github/stars/OPCFoundation/UA-CloudLibrary?style=social&color=white)](https://github.com/OPCFoundation/UA-CloudLibrary/stargazers) — Global repository of OPC UA information models ("industrial digital twins") hosted by the OPC Foundation.
+- **[UA Cloud Viewer](https://github.com/OPCFoundation/UA-CloudViewer)** [![GitHub_Stars](https://img.shields.io/github/stars/OPCFoundation/UA-CloudViewer?style=social&color=white)](https://github.com/OPCFoundation/UA-CloudViewer/stargazers) — Web-based visualization tool for OPC UA information models and industrial asset twins.
 
 ---
 
@@ -129,7 +129,7 @@ Contributions are warmly welcome! Help make industrial digital twins more open, 
 
 1. 🍴 **Fork the repository**
 2. 📝 **Create a new branch** (`git checkout -b add-digital-twin-platform`)
-3. ➕ **Add your entry** to `README.md` following the table / list format (include platform name, official site, description, pricing, and open-source star badges).
+3. ➕ **Add your entry** to `README.md` following the table / list format (include platform name, official site, description, pricing, and open-source Stars_Badges).
 4. 🚀 **Commit your changes** (`git commit -m "add: new industrial digital twin solution"`)
 5. 📤 **Push to your fork** (`git push origin add-digital-twin-platform`)
 6. 🔀 **Submit a Pull Request** with a brief summary of the project.
